@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cipher Quest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cipher Quest Challenge</h1>
+
+        <div id="step1">
+            <p>Can you decipher the hidden message?</p>
+            <p>Decrypt the Ciphertext: Tve-Tikf{B0t$_0h_K1xf3v$}</p>
+            <label for="step1-input">Enter the decrypted message:</label>
+            <input type="text" id="step1-input">
+            <button onclick="checkStep1()">Submit</button>
+        </div>
+
+        <div id="step2" style="display: none;">
+            <p>Can you decipher the hidden message?</p>
+            <p>Almost there!</p>
+            <label for="step2-input">Enter the decrypted message:</label>
+            <input type="text" id="step2-input">
+            <button onclick="checkStep2()">Submit</button>
+        </div>
+        
+        <div id="congratulations" style="display: none;">
+            <p>Congratulations! You have completed the Cipher Quest.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
